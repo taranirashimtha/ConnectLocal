@@ -1,0 +1,83 @@
+.join-service-provider {
+    font-family: 'Arial', sans-serif;
+    color: aliceblue;
+    background: aliceblue;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    width: 80%;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .logo {
+    height: 60px;
+    margin-right: 15px;
+  }
+  
+  h1 {
+    color: hsla(234, 50%, 64%, 1);
+    font-size: 2.5rem;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .text {
+    width: 50%;
+    padding: 20px;
+    color: hsla(234, 50%, 64%, 1);
+  }
+  
+  h2 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 2rem;
+  }
+  
+  .image img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact {
+    background: aliceblue;
+    padding: 30px;
+    border-radius: 20px;
+    color: hsla(234, 50%, 64%, 1);
+  }
+  
+  .contact h3 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 10px 0;
+  }
+  
+  .contact i {
+    margin-right: 15px;
+    font-size: 1.5rem;
+  }
+  
