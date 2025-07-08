@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Loginsignup.css';
-
+import { BASE_URL } from '../config';
 const Loginsignup = () => {
   const [state, setState] = useState("Login");
   const [formData,setFormData] = useState({
@@ -13,7 +13,7 @@ const Loginsignup = () => {
   }
   const login = async () =>{
     console.log("login executed",formData); let responseData;
-    await fetch('https://connect-local-backendnew.onrender.com/login',{
+    await fetch(`${BASE_URL}/login`,{
       method:'POST',
       headers: {
         Accept:'application/form-data',
@@ -33,7 +33,7 @@ const Loginsignup = () => {
   const signup = async () =>{
     console.log("signup executed",formData);
     let responseData;
-    await fetch('https://connect-local-backendnew.onrender.com/signup',{
+    await fetch(`${BASE_URL}/signup`,{
       method:'POST',
       headers: {
         Accept:'application/form-data',
